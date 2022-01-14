@@ -1,0 +1,53 @@
+body{
+    background-color: lavender;
+    
+}
+h1{
+    font-size: 30px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    margin-right: 30px;
+    padding-left: 200px;
+}
+.cameraimg{
+    width: 50%;
+    /* height: 20px; */
+    padding-left: 5%;
+    padding-right: 20%;
+}
+/* botton-decoration */
+.botton-link{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(230, 50, 18, 0.719), rgb(172, 42, 64));
+    color: white;
+    padding: 10px 40px;
+}
+/* websit-name */
+.website-part{
+    
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+.website-part img{
+    margin-left: 30px;
+}
+/* Popular Collection */
+.collections img{
+    width: 224px;
+    height: 104px;
+       
+}
+.collection-info{
+    display: flex;
+}
+/* decoration star */
+.fa-star.rating{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
