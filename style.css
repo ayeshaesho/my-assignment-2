@@ -72,3 +72,23 @@ h1{
     padding: 2%;
     box-shadow: 5px 5px 40px gray;
 }
+/* section-mirrorless */
+.product{
+    display: flex;
+}
+.mirrorless{
+    display: flex;
+    text-align: center;
+    width: 10%;
+    height: 5%;
+    padding: 30px;
+    margin: 100px;
+    
+}
+/* footer decoration */
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(1, 1, 15, 0.836);
+
+}
