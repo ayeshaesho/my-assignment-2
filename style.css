@@ -35,11 +35,17 @@ h1{
 .website-part img{
     margin-left: 30px;
 }
+
 /* Popular Collection */
-.containers{ 
+
+.containers{
+    display: flex;
+}
+
+.collections{ 
    width: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 2%;
     box-shadow: 5px 5px 40px gray;
 }
@@ -58,4 +64,11 @@ h1{
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.Microphone{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 5px 5px 40px gray;
 }
