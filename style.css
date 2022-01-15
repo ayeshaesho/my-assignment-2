@@ -12,6 +12,9 @@ nav a{
     font-size: 1.3em;
     margin-left: 15px;
 }
+.camera-title{
+    font-size: 20px;
+}
 h1{
     font-size: 30px;
 }
@@ -64,12 +67,19 @@ h1{
     /* display: grid;
     flex-wrap: wrap; */
 }
+ 
 
 .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr); 
-    
+    border-radius: 10px;
+    padding: 2%;
+
   
+}
+
+.section-title{
+    text-align: center;
 }
 .collection{
     /* width: 20%;
@@ -110,7 +120,7 @@ h1{
     margin: 10px;
     padding: 20px; */
     display: grid;
-    grid-template-columns: 600px auto;
+    grid-template-columns: 400px auto;
     
     
 }
@@ -118,10 +128,10 @@ h1{
    
     text-align: left;
     margin-bottom: 5%;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 .miror-camera img{
-    padding: 30px;
+    padding: 20px;
   align-items: center;
 }
 .half-width{
@@ -134,4 +144,22 @@ footer{
     color: white;
     background-color: rgba(1, 1, 15, 0.836);
 
+}
+@media (max-width: 700px) {
+    .collection{
+        background-color: slateblue;
+    }
+    .website-part{
+        background-color: salmon;
+    }
+    
+}
+@media (mini-width: 481px) {
+    .collection{
+        background-color: hotpink;
+    }
+    .website-part{
+        background-color: rosybrown;
+    }
+    
 }
